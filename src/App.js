@@ -21,7 +21,8 @@ class App extends Component {
         this.state = {
             yourId: '',
             otherId: '',
-            yourMessage: ''
+            yourMessage: '',
+            chatLog: ''
         }
     }
 
@@ -57,6 +58,11 @@ class App extends Component {
                 value: this.state.yourMessage,
                 handleChangeValue: this.handleChangeYourMessage
             },
+            chatLogInputData = {
+                id: 'chat-log',
+                value: this.state.chatLog,
+                disabled: true
+            },
             sendMessageButtonData = {
                 id: 'send-message',
                 label: 'Send',
@@ -85,7 +91,12 @@ class App extends Component {
                 <hr/>
 
                 <div>
-                    <label>Other Id:</label><br/>
+                    <label>Chat Log:</label><br/>
+                    <TextArea {...chatLogInputData}/>
+                </div>
+
+                <div>
+                    <label>Message:</label><br/>
                     <TextArea {...yourMessageInputData}/>
                 </div>
                 <Button {...sendMessageButtonData}/>
@@ -124,10 +135,10 @@ class App extends Component {
     }
 
     handleReceiveMessage(data) {
-        console.log(data);
+        const updatedChatLog = this.state.chatLog += data;
 
         this.setState({
-            yourMessage: data
+            chatLog: updatedChatLog
         });
     }
 
@@ -154,6 +165,12 @@ class App extends Component {
     }
 
     handleClickSendButton() {
+        const updatedChatLog = this.state.chatLog += this.state.yourMessage;
+
+        this.setState({
+            chatLog: updatedChatLog
+        });
+
         this.peer.send(this.state.yourMessage);
     }
 }
