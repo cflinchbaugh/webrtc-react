@@ -107,16 +107,26 @@ class App extends Component {
     }
 
     handleClickInitiatorButton() {
+        this.setState({
+            initiator: true
+        });
+
         this.initializePeer(true)
     }
 
     handleClickNonInitiatorButton() {
+        this.setState({
+            initiator: false
+        });
+
         this.initializePeer(false)
     }
 
     initializePeer(initiator) {
+        const message = initiator ? 'Loading...' : 'Please Add Other Id';
+
         this.setState({
-            yourId: 'Loading...'
+            yourId: message
         });
 
         this.peer = new Peer({
@@ -166,12 +176,13 @@ class App extends Component {
 
     handleClickSendButton() {
         const updatedChatLog = this.state.chatLog += this.state.yourMessage;
+        
+        this.peer.send(this.state.yourMessage);
 
         this.setState({
-            chatLog: updatedChatLog
+            chatLog: updatedChatLog,
+            yourMessage: ''
         });
-
-        this.peer.send(this.state.yourMessage);
     }
 }
 
