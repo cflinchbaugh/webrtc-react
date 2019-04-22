@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import TextArea from './components/TextArea';
-import Button from './components/Button';
+import TextArea from './components/inputs/TextArea';
+import Button from './components/buttons/Button';
 var Peer = require('simple-peer');
 
 class App extends Component {
@@ -61,6 +61,7 @@ class App extends Component {
             chatLogInputData = {
                 id: 'chat-log',
                 value: this.state.chatLog,
+                handleChangeValue: () => {},
                 disabled: true
             },
             sendMessageButtonData = {
