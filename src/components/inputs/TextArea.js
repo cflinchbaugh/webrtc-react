@@ -6,7 +6,7 @@ function TextArea(props) {
             id: props.id,
             value: props.value,
             disabled: props.disabled,
-            onChange: (e) => {props.handleChangeValue(e.currentTarget.value)}
+            onChange: (e) => {props.handleChangeValue(e.currentTarget.value)},
         }
 
     return <textarea {...data}/>

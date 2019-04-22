@@ -1,0 +1,886 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <Button
+            disabled={false}
+            handleClickButton={[Function]}
+            id="initiator"
+            label="Initiator"
+          />
+          <Button
+            disabled={false}
+            handleClickButton={[Function]}
+            id="noninitiator"
+            label="Non Initiator"
+          />
+        </div>,
+        <div>
+          <label>
+            Your Id:
+          </label>
+          <br />
+          <TextArea
+            disabled={false}
+            handleChangeValue={[Function]}
+            id="your-id"
+            value=""
+          />
+        </div>,
+        <div>
+          <label>
+            Other Id:
+          </label>
+          <br />
+          <TextArea
+            disabled={false}
+            handleChangeValue={[Function]}
+            id="other-id"
+            value=""
+          />
+        </div>,
+        <Button
+          disabled={true}
+          handleClickButton={[Function]}
+          id="connect"
+          label="Connect"
+        />,
+        <hr />,
+        <div>
+          <label>
+            Chat Log:
+          </label>
+          <br />
+          <TextArea
+            disabled={true}
+            handleChangeValue={[Function]}
+            id="chat-log"
+            value=""
+          />
+        </div>,
+        <div>
+          <label>
+            Message:
+          </label>
+          <br />
+          <TextArea
+            disabled={false}
+            handleChangeValue={[Function]}
+            id="your-message"
+            value=""
+          />
+        </div>,
+        <Button
+          disabled={false}
+          handleClickButton={[Function]}
+          id="send-message"
+          label="Send"
+        />,
+        <pre
+          id="messages"
+        />,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Button
+              disabled={false}
+              handleClickButton={[Function]}
+              id="initiator"
+              label="Initiator"
+            />,
+            <Button
+              disabled={false}
+              handleClickButton={[Function]}
+              id="noninitiator"
+              label="Non Initiator"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "handleClickButton": [Function],
+              "id": "initiator",
+              "label": "Initiator",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "handleClickButton": [Function],
+              "id": "noninitiator",
+              "label": "Non Initiator",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Your Id:
+            </label>,
+            <br />,
+            <TextArea
+              disabled={false}
+              handleChangeValue={[Function]}
+              id="your-id"
+              value=""
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Id:",
+            },
+            "ref": null,
+            "rendered": "Your Id:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "handleChangeValue": [Function],
+              "id": "your-id",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Other Id:
+            </label>,
+            <br />,
+            <TextArea
+              disabled={false}
+              handleChangeValue={[Function]}
+              id="other-id"
+              value=""
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Other Id:",
+            },
+            "ref": null,
+            "rendered": "Other Id:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "handleChangeValue": [Function],
+              "id": "other-id",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "disabled": true,
+          "handleClickButton": [Function],
+          "id": "connect",
+          "label": "Connect",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Chat Log:
+            </label>,
+            <br />,
+            <TextArea
+              disabled={true}
+              handleChangeValue={[Function]}
+              id="chat-log"
+              value=""
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Chat Log:",
+            },
+            "ref": null,
+            "rendered": "Chat Log:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": true,
+              "handleChangeValue": [Function],
+              "id": "chat-log",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Message:
+            </label>,
+            <br />,
+            <TextArea
+              disabled={false}
+              handleChangeValue={[Function]}
+              id="your-message"
+              value=""
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Message:",
+            },
+            "ref": null,
+            "rendered": "Message:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "handleChangeValue": [Function],
+              "id": "your-message",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "disabled": false,
+          "handleClickButton": [Function],
+          "id": "send-message",
+          "label": "Send",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "messages",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "pre",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <Button
+              disabled={false}
+              handleClickButton={[Function]}
+              id="initiator"
+              label="Initiator"
+            />
+            <Button
+              disabled={false}
+              handleClickButton={[Function]}
+              id="noninitiator"
+              label="Non Initiator"
+            />
+          </div>,
+          <div>
+            <label>
+              Your Id:
+            </label>
+            <br />
+            <TextArea
+              disabled={false}
+              handleChangeValue={[Function]}
+              id="your-id"
+              value=""
+            />
+          </div>,
+          <div>
+            <label>
+              Other Id:
+            </label>
+            <br />
+            <TextArea
+              disabled={false}
+              handleChangeValue={[Function]}
+              id="other-id"
+              value=""
+            />
+          </div>,
+          <Button
+            disabled={true}
+            handleClickButton={[Function]}
+            id="connect"
+            label="Connect"
+          />,
+          <hr />,
+          <div>
+            <label>
+              Chat Log:
+            </label>
+            <br />
+            <TextArea
+              disabled={true}
+              handleChangeValue={[Function]}
+              id="chat-log"
+              value=""
+            />
+          </div>,
+          <div>
+            <label>
+              Message:
+            </label>
+            <br />
+            <TextArea
+              disabled={false}
+              handleChangeValue={[Function]}
+              id="your-message"
+              value=""
+            />
+          </div>,
+          <Button
+            disabled={false}
+            handleClickButton={[Function]}
+            id="send-message"
+            label="Send"
+          />,
+          <pre
+            id="messages"
+          />,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Button
+                disabled={false}
+                handleClickButton={[Function]}
+                id="initiator"
+                label="Initiator"
+              />,
+              <Button
+                disabled={false}
+                handleClickButton={[Function]}
+                id="noninitiator"
+                label="Non Initiator"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "handleClickButton": [Function],
+                "id": "initiator",
+                "label": "Initiator",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "handleClickButton": [Function],
+                "id": "noninitiator",
+                "label": "Non Initiator",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Your Id:
+              </label>,
+              <br />,
+              <TextArea
+                disabled={false}
+                handleChangeValue={[Function]}
+                id="your-id"
+                value=""
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Your Id:",
+              },
+              "ref": null,
+              "rendered": "Your Id:",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "handleChangeValue": [Function],
+                "id": "your-id",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Other Id:
+              </label>,
+              <br />,
+              <TextArea
+                disabled={false}
+                handleChangeValue={[Function]}
+                id="other-id"
+                value=""
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other Id:",
+              },
+              "ref": null,
+              "rendered": "Other Id:",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "handleChangeValue": [Function],
+                "id": "other-id",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "disabled": true,
+            "handleClickButton": [Function],
+            "id": "connect",
+            "label": "Connect",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Chat Log:
+              </label>,
+              <br />,
+              <TextArea
+                disabled={true}
+                handleChangeValue={[Function]}
+                id="chat-log"
+                value=""
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Chat Log:",
+              },
+              "ref": null,
+              "rendered": "Chat Log:",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": true,
+                "handleChangeValue": [Function],
+                "id": "chat-log",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Message:
+              </label>,
+              <br />,
+              <TextArea
+                disabled={false}
+                handleChangeValue={[Function]}
+                id="your-message"
+                value=""
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Message:",
+              },
+              "ref": null,
+              "rendered": "Message:",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "handleChangeValue": [Function],
+                "id": "your-message",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "disabled": false,
+            "handleClickButton": [Function],
+            "id": "send-message",
+            "label": "Send",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "messages",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "pre",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

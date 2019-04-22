@@ -51,7 +51,8 @@ class App extends Component {
             connectButtonData = {
                 id: 'connect',
                 label: 'Connect',
-                handleClickButton: this.handleClickConnectButton
+                handleClickButton: this.handleClickConnectButton,
+                disabled: !this.state.yourId.length || !this.state.otherId.length
             },
             yourMessageInputData = {
                 id: 'your-message',
